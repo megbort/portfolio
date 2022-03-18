@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="robots" content="index,follow">
+  <title>Megan Krenbrink Front-End Developer Portfolio | Weather App Project</title>
+  <meta name="description"
+    content="This is a Weather Application built using JavaScript and the Open Weather API. BCIT New Media and Web Development 2022.">
+  <!-- GOOGLE ANALYTICS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JB4P8CZZ1B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-JB4P8CZZ1B');
+  </script>
+  <!--- GOOGLE FONTS -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+  <!--- STYLESHEETS -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="theme-wrapper">
+    <section class="project-bnr weather-bnr">
+      <div class="project-bnr-container">
+        <nav class="gn" role="navigation">
+          <a class="gn-back" href="index.html#my-work" title="Back">
+            <img src="images/left-chevron-white.png" alt="Left Arrow Icon">
+          </a>
+          <a class="gn-right" href="index.html" title="Home">
+            <img src="images/logo_white.png" alt="Logo White">
+          </a>
+        </nav>
+        <div class="project-bnr-content">
+          <h1>Weather Application</h1>
+          <a class="btn-2" href="https://megankrenbrink.com/weather-app" target="blank"
+            title="Weather App Live Demo">Live Demo</a>
+        </div>
+      </div>
+    </section>
+    <main class="project-wrapper">
+      <!-- PROJECT DETAILS -->
+      <section>
+        <div class="project">
+          <div class="project-content">
+            <div class="project-intro">
+              <p>I made this weather application initially to get more practice with APIs and pulling data from them.
+                One of the most standard apps we find on a phone or computer is some type of weather app. So, I decided I
+                would give it a try.</p>
+              <img src="images/weather-screens.png" alt="WearIt Screens Demo">
+            </div>
+            <div class="project-process">
+              <h2>Process</h2>
+              <p>I first looked online for available APIs I could use and found OpenWeatherMap, a weather API, that was
+                free to use with an account. I signed up and got my API key. Next I coded out the HTML so I had places
+                to show the query results.</p>
+              <p>Using some guidance from the OpenWeather documentation and YouTube, I was able to figure out how to use
+                fetch and display my results with JavaScript. I kept adding more and more until I was satisfied with the
+                content displayed. Lastly, I styled the page with some CSS.</p>
+            </div>
+            <div class="project-tech">
+              <h2>Technologies &<br> Languages</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API</li>
+                <li><a class="link" href="https://openweathermap.org/" target="_blank" title="OpenWeatherMap Homepage">OpenWeatherMap</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- PROJECT NAVIGATION -->
+    <section>
+      <div class="project-nav">
+        <a class="prev-project" href="#" title="Previous Project"></a>
+            <a class="next-project" href="mywork-phpyearbook.html" title="Next Project">Next Project >></a>
+      </div>
+    </section>
+    <!--- CONTACT / FOOTER -->
+    <section class="section-ftr" id="contact">
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>Want to work together? Let's get in touch!</p>
+        <a class="btn-2" href="mailto:megan.krenbrink@gmail.com" title="Send E-mail">Send E-mail</a>
+        <ul class="socials">
+          <li>
+            <a href="https://www.linkedin.com/in/megankrenbrink-developer/" target="_blank" title="LinkedIn">
+              <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/kebab_town" target="_blank" title="Twitter">
+              <img src="images/twitter-logo-white.png" alt="Twitter Logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/megbort" target="_blank" title="Github">
+              <img src="images/github-logo-white.png" alt="Github Logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="animeg">
+        <img id="aniMeg" src="images/animeg_happy.png" alt="Anime Megan" onclick="changeMeg();">
+      </div>
+    </section>
+  </div>
+  <footer class="ftr">
+    <h5>Designed and built by Megan Krenbrink &copy; 2022</h5>
+  </footer>
+  <!--- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

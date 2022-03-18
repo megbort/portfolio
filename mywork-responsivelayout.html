@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="robots" content="index,follow">
+  <title>Megan Krenbrink Front-End Developer Portfolio | Responsive Card Layout Project</title>
+  <meta name="description"
+    content="The Responsive Card Layout project incorporates the jQuery plugin Masonry, CSS and HTML to create a layout that responds as the browser window changes. Megan Krenbrink BCIT New Media and Web Development 2022.">
+  <!-- GOOGLE ANALYTICS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JB4P8CZZ1B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-JB4P8CZZ1B');
+  </script>
+  <!--- GOOGLE FONTS -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+  <!--- STYLESHEETS -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="theme-wrapper">
+    <section class="project-bnr responsive-layout">
+      <div class="project-bnr-container">
+        <nav class="gn" role="navigation">
+          <a class="gn-back" href="index.html#my-work" title="Back">
+            <img src="images/left-chevron-white.png" alt="Left Arrow Icon">
+          </a>
+          <a class="gn-right" href="index.html" title="Home">
+            <img src="images/logo_white.png" alt="Logo White">
+          </a>
+        </nav>
+        <div class="project-bnr-content">
+          <h1>Responsive Card Layout</h1>
+          <a class="btn-2" href="https://megankrenbrink.com/responsive-card-layout" target="blank"
+            title="Responsive Card Live Demo">Live Demo</a>
+        </div>
+      </div>
+    </section>
+    <main class="project-wrapper">
+      <!-- PROJECT DETAILS -->
+      <section>
+        <div class="project">
+          <div class="project-content">
+            <div class="project-intro">
+              <p>I completed this project in October 2021. It was the first assignment in my Web Design and Interaction
+                class. The goal of the assignment was to design a card and then make a responsive layout using Masonry.
+              </p>
+              <img src="images/responsive-card-screens.png" alt="Responsive Layout Screens">
+            </div>
+            <div class="project-process">
+              <h2>Process</h2>
+              <p>I started by looking at different collections of photos online for some theme inspiration. I ended up
+                going with a technology theme. I then download different sizes and orientations of photos, so I could
+                display a variety of shapes in the layout design. Next, I found a suitable google font “Consolas”. I
+                thought a mono typescript would look good in a technology themed card.</p>
+              <p>Once I started coding it didn't take too long for things to come together. Since all the cards have the
+                same structure I mainly had to duplicate the cards to as many photos I wanted to display. I created some
+                random headlines for each of the cards, somewhat relating to the image in the card and also added some
+                lorem ipsum text. Last, I made a small robot logo to place on each card.</p>
+            </div>
+            <div class="project-tech">
+              <h2>Technologies &<br> Languages</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li><a class="link" href="https://masonry.desandro.com/" target="_blank" title="Masonry Homepage">Masonry</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- PROJECT NAVIGATION -->
+    <section>
+      <div class="project-nav">
+        <a class="prev-project" href="mywork-madcap.html" title="Previous Project">
+          << Previous Project</a>
+            <a class="next-project" href="mywork-loancalculator.html" title="Next Project">Next Project >></a>
+      </div>
+    </section>
+    <!--- CONTACT / FOOTER -->
+    <section class="section-ftr" id="contact">
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>Want to work together? Let's get in touch!</p>
+        <a class="btn-2" href="mailto:megan.krenbrink@gmail.com" title="Send E-mail">Send E-mail</a>
+        <ul class="socials">
+          <li>
+            <a href="https://www.linkedin.com/in/megankrenbrink-developer/" target="_blank" title="LinkedIn">
+              <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/kebab_town" target="_blank" title="Twitter">
+              <img src="images/twitter-logo-white.png" alt="Twitter Logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/megbort" target="_blank" title="Github">
+              <img src="images/github-logo-white.png" alt="Github Logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="animeg">
+        <img id="aniMeg" src="images/animeg_happy.png" alt="Anime Megan" onclick="changeMeg();">
+      </div>
+    </section>
+  </div>
+  <footer class="ftr">
+    <h5>Designed and built by Megan Krenbrink &copy; 2022</h5>
+  </footer>
+  <!--- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

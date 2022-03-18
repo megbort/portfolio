@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="robots" content="index,follow">
+  <title>Megan Krenbrink Front-End Developer Portfolio | BCIT New Media Design and Web Development</title>
+  <meta name="description"
+    content="Megan Krenrbink is a Front-End Developer and Web Designer. She's currelty enrolled in the New Meida and Web Development Program at BCIT and is looking forward to starting an intership in summer 2022.">
+  <!-- GOOGLE ANALYTICS -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-JB4P8CZZ1B"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-JB4P8CZZ1B');
+  </script>
+  <!--- GOOGLE FONTS -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+  <!--- STYLESHEETS -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <section>
+    <div class="bg-img-home bg-centre">
+      <!--HEADER & NAVIGATION-->
+      <nav class="gn" role="navigation">
+        <ul id="mySidepanel" class="sidepanel">
+          <li><a class="closebtn" onclick="closeNav()" title="Close menu">&times;</a></li>
+          <li><a href="index.html" onclick="closeNav()" title="Home">Home</a></li>
+          <li><a href="#my-work" onclick="closeNav()" title="My Work">My Work</a></li>
+          <li><a href="#about-me" onclick="closeNav()" title="About Me">About Me</a></li>
+          <li><a href="#contact" onclick="closeNav()" title="Contact">Contact</a></li>
+        </ul>
+        <div class="openbtn gn-left" onclick="openNav()" title="Menu">
+          <img src="images/menu.png" alt="Menu Icon">
+        </div>
+        <a class="gn-right" href="index.html" title="Home">
+          <img src="images/logo_white.png" alt="Logo White">
+        </a>
+      </nav>
+      <!--HOME BANNER CONTENT-->
+      <div class="home-bnr-content">
+        <div class="bnr-text">
+          <h1 class="animate__animated animate__fadeInDown">MEGAN KRENBRINK</h1>
+          <p class="animate__animated animate__fadeInUp">front-end developer // web designer</p>
+          <ul class="socials left">
+            <li>
+              <a href="https://www.linkedin.com/in/megankrenbrink-developer/" target="_blank" title="LinkedIn">
+                <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/kebab_town" target="_blank" title="Twitter">
+                <img src="images/twitter-logo-white.png" alt="Twitter Logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/megbort" target="_blank" title="Github">
+                <img src="images/github-logo-white.png" alt="Github Logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="circle">
+          <img src="images/logo_icon.png" alt="Megan Logo Colour">
+        </div>
+        <div class="down-arrow animate__animated animate__bounce animate__delay-2s">
+          <a href="#my-work" title="Scroll down">
+            <img src="images/down-chevron-white.png" alt="Down Arrow Icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--- MY WORK -->
+  <section id="my-work" class="section work">
+    <div class="my-work">
+      <h2>Check out some of <span>my work</span> &#8595;&#8595;&#8595;</h2>
+      <div class="iso-container">
+        <div id="filters" class="button-group">
+          <button class="button is-checked" data-filter="*">All Work</button>
+          <button class="button" data-filter=".responsive">Responsive</button>
+          <button class="button" data-filter=".html">HTML</button>
+          <button class="button" data-filter=".css">CSS</button>
+          <button class="button" data-filter=".javascript">JavaScript</button>
+          <button class="button" data-filter=".jquery">jQuery</button>
+          <button class="button" data-filter=".php">PHP</button>
+          <button class="button" data-filter=".api">API</button>
+          <button class="button" data-filter=".bootstrap">Bootstrap</button>
+          <!-- <button class="button" data-filter=".react">React</button> -->
+        </div>
+        <div class="grid work-cards">
+          <div class="work-card html css javascript api responsive">
+            <img src="images/weather-sample.png" alt="Weather App Graphic">
+            <div class="work-card-text">
+              <h3>Weather Application</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-weatherapp.html" title="See Weather App Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card php html">
+            <img src="images/phpyearbook-sample.jpg" alt="Coming Soon Graphic">
+            <div class="work-card-text">
+              <h3>PHP Yearbook</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-phpyearbook.html" title="See PHP Yearbook Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html css responsive">
+            <img src="images/wear-it-sample.png" alt="Wearit Graphic">
+            <div class="work-card-text">
+              <h3>WearIt Clothing</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-wearit.html" title="See WearIt Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html bootstrap responsive">
+            <img src="images/flashpoint-sample.jpg" alt="Flashpoint Graphic">
+            <div class="work-card-text">
+              <h3>Flashpoint Photography</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-flashpoint.html" title="See Flashpoint Photography Project">See
+                  Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html css responsive javascript jquery plugins">
+            <img src="images/madcap-sample.jpg" alt="Madcap Media Graphic">
+            <div class="work-card-text">
+              <h3>Madcap Media Group</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-madcap.html" title="See Madcap Media Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html css jquery responsive">
+            <img src="images/responsive-card-sample.png" alt="Responsive Card Layout Graphic">
+            <div class="work-card-text">
+              <h3>Responsive Card Layout</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-responsivelayout.html" title="See Responsive Card Layout Project">See
+                  Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html css javascript responsive">
+            <img src="images/loan-calculator-sample.png" alt="Loan Calculator Graphic">
+            <div class="work-card-text">
+              <h3>Loan Calculator</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-loancalculator.html" title="See Loan Calculator Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="work-card html javascript css responsive">
+            <img src="images/8ball-sample.png" alt="Magic 8-Ball Graphic">
+            <div class="work-card-text">
+              <h3>Magic 8-Ball</h3>
+              <div class="work-card-btn">
+                <a class="btn-1" href="mywork-magic8ball.html" title="See Magic 8-Ball Project">See Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="work-card react">
+            <img src="images/coming-soon-sample.png" alt="Coming Soon Graphic">
+            <div class="work-card-text">
+              <h3>React Website</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="images/coming-soon-sample.png" alt="Coming Soon Graphic">
+            <div class="work-card-text">
+              <h3>Custom Music Player</h3>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--- ABOUT ME -->
+  <section id="about-me" class="section about">
+    <div class="about-me">
+      <div class="about-me-pic">
+        <img src="images/megan-profile.png" alt="Megan Profile Picture">
+      </div>
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>Megan Krenbrink is a Front-End Developer and Designer currently enrolled in the New Media Design and Web
+          Development program at BCIT. In the summer of 2022, she plans on getting an internship and pursuing a career
+          in Web Development.</p>
+        <div id="more">
+          <p>Megan grew up on the West Coast of Canada in Victoria, British Columbia. In 2013, she decided to move to
+            Vancouver to attend the Financial Management Program at BCIT. She graduated in 2015 and received a Diploma
+            in Technology. She then worked as an Accounting Assistant for 5 years.</p>
+          <p>The experience from both programs has allowed Megan to develop exceptional skills in problem-solving,
+            organization and design. She also is proficient in coding languages such as HTML, CSS, JavaScript, PHP, and
+            React.</p>
+          <p>Megan has a passion for music and has been playing drums for 18 years. In her spare time likes to play and
+            record music with her band <a class="link" href="https://joeychaos.com/" target="_blank"
+              title="Joey Chaos and the Ghosts Homepage">Joey Chaos and the Ghosts</a>. Also in her free time, Megan
+            enjoys drawing,
+            reading, and playing video games.</p>
+          <p>If you have interest in working with Megan, you can reach her on <a class="link"
+              href="https://www.linkedin.com/in/megankrenbrink-developer/" target="_blank"
+              title="LinkedIn Profile">LinkedIn</a>
+            or by email at <a class="link" href="mailto:megan.krenn@gmail.com"
+              title="Send E-mail">megan.krenbrink@gmail.com.</a></p>
+        </div>
+        <a id="myBtn" class="btn-3">Read More</a>
+      </div>
+    </div>
+  </section>
+  <!--- CONTACT / FOOTER -->
+  <section id="contact" class="section">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Want to work together? Let's get in touch!</p>
+      <a class="btn-2" href="mailto:megan.krenn@gmail.com" title="Send E-mail">Send E-mail</a>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/in/megankrenbrink-developer/" target="_blank" title="LinkedIn">
+            <img src="images/linkedin-logo-white.png" alt="LinkedIn Logo">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/kebab_town" target="_blank" title="Twitter">
+            <img src="images/twitter-logo-white.png" alt="Twitter Logo">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/megbort" target="_blank" title="Github">
+            <img src="images/github-logo-white.png" alt="Github Logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="animeg">
+      <img id="aniMeg" src="images/animeg_happy.png" alt="Anime Megan" onclick="changeMeg();">
+    </div>
+  </section>
+  <footer class="ftr">
+    <h5>Designed and built by Megan Krenbrink &copy; 2022</h5>
+  </footer>
+  <!--- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
