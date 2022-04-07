@@ -236,8 +236,8 @@ nav {
   padding-bottom: 15px;
 }
 
-.bnr-text p {
-  font-size: 14px;
+.bnr-text h4 {
+  font-size: 15px;
 }
 
 .circle {
@@ -674,8 +674,8 @@ nav {
   .home-bnr-content h1 {
     font-size: 80px;
   }
-  .bnr-text p {
-    font-size: 22px;
+  .bnr-text h4 {
+    font-size: 18px;
   }
   .circle {
     left: 200px;
