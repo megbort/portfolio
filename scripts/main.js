@@ -1,7 +1,7 @@
 // FLYOUT NAVIGATION BAR //
 // Resize the width of panel to show menu - add right border
 function openNav() {
-  document.getElementById("mySidepanel").style.borderRight = "2px solid #FF3358";
+  document.getElementById("mySidepanel").style.borderRight = "1px solid #FF3358";
   document.getElementById("mySidepanel").style.width = "230px";
   
 }// Resize the width to hide menu - hide right border
