@@ -30,8 +30,13 @@ a, a:active, a:focus{
   -webkit-tap-highlight-color: transparent;
 }
 
+hr {
+  color: #FF3358;
+  opacity: 0.60;
+}
+
 .section {
-  padding: 50px 35px;
+  padding: 50px 20px;
 }
 
 .btn-1 {
@@ -231,13 +236,12 @@ nav {
   font-size: 44px;
 }
 
-.bnr-text h2 {
-  font-size: 18px;
-  padding-bottom: 15px;
+.bnr-text span {
+  color: #FF3358;
 }
 
 .bnr-text h4 {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .circle {
@@ -247,7 +251,7 @@ nav {
 }
 
 .circle img {
-  opacity: .25;
+  opacity: .35;
   max-width: 450px;
 }
 
@@ -267,6 +271,10 @@ nav {
 .work {
   background-image: url(../images/dark_mosaic.png);
   background-attachment: fixed;
+}
+
+.my-work {
+  max-width: 1150px;
 }
 
 .my-work h2 {
@@ -352,6 +360,7 @@ nav {
   justify-content: center;
   max-width: 850px;
   margin: 0 auto;
+  padding: 0px 20px;
 }
 
 .about-me-pic img {
@@ -411,7 +420,7 @@ nav {
 }
 
 .animeg img {
-  width: 100px;
+  width: 120px;
 }
 
 .contact .socials {
@@ -566,18 +575,12 @@ nav {
 }
 @media (min-width:400px) {
   .section {
-    padding: 80px;
+    padding: 60px;
   }
 }
 @media (min-width:576px) {
   .bg-img-home {
     height: 100vh;
-  }
-  .section {
-    padding: 100px;
-  }
-  .my-work h2 {
-    font-size: 35px;
   }
 }
 @media (min-width:768px) {
@@ -611,12 +614,11 @@ nav {
     color: #FF3358;
   }
   .my-work {
-    max-width: 760px;
     margin: 0 auto;
   }
   .my-work h2 {
     font-size: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
   .about-me {
     flex-direction: row;
@@ -650,7 +652,7 @@ nav {
   }
   .bnr-text {
     text-align: left;
-    width: 600px;
+    width: 620px;
     padding-left: 175px;
     z-index: 100;
   }
@@ -660,39 +662,29 @@ nav {
   .home-bnr-content h1 {
     font-size: 80px;
   }
-  .my-work {
-    max-width: 900px;
+  .bnr-text h4 {
+    font-size: 20px;
   }
   .my-work h2 {
-    font-size: 44px;
+    font-size: 48px;
+  }
+  .work-card {
+    margin: 15px;
   }
   .contact h2 {
     font-size: 45px;
   }
 }
 @media (min-width:1200px) {
-  .home-bnr-content h1 {
-    font-size: 80px;
-  }
-  .bnr-text h4 {
-    font-size: 18px;
-  }
   .circle {
     left: 200px;
   }
-  .section.work {
-    padding: 100px;
+  .section {
+    padding: 150px;
   }
   .about-me-pic img {
     width: 400px;
     padding-right: 80px;
-  }
-  .my-work {
-    max-width: 1100px;
-    padding-bottom: 100px;
-  }
-  .my-work h2 {
-    font-size: 50px;
   }
   .project-bnr-content h1 {
     font-size: 42px;
@@ -739,6 +731,11 @@ nav {
 @media (min-width:2000px) {
   .circle {
     left: 700px;
+  }
+}
+@media (min-width:3000px) {
+  .circle {
+    left: 1400px;
   }
 }
 
