@@ -11,34 +11,43 @@
     <style>
       body {
         background-image: url('./images/dark_mosaic.png');
+      }
+      .error-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: 90vh;
+        justify-content: space-around;
         text-align: center;
+        align-items: center;
         padding: 50px;
       }
-      h1 {
+      .error-container h1 {
         font-size: 110px;
         padding-bottom: 20px;
       }
-      h2 {
+      .error-container h2 {
         font-size: 30px;
         padding-bottom: 20px;
       }
-      p {
+      .error-container p {
+        font-size: 16px;
         padding-bottom: 30px;
       }
-      img {
+      .error-container img {
         width: 200px;
-        padding-bottom: 30px;
+      }
+      .error-container .return {
+        margin-bottom: 30px;
       }
     </style>
 </head>
 <body>
+  <div class="error-container">
     <h1>404</h1>
     <h2>Page Not Found</h2>
     <p>Sorry, but the page you were trying to view does not exist.</p>
+    <a class="btn-2 return" href="index.html" title="Homepage">Return to Homepage</a>
     <img src="images/animeg_sad.png">
-    <a class="btn-2" href="index.html" title="Homepage">Return to Homepage</a>
+  </div>
 </body>
 </html>
