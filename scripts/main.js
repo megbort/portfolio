@@ -21,6 +21,7 @@ function changeMeg() {
 var $grid = $('.grid').isotope({
   itemSelector: '.work-card',
   layoutMode: 'fitRows',
+  filter: '.featured'
 });
 
 // bind filter button click
@@ -46,4 +47,3 @@ $( "#myBtn" ).click(function() {
     return v === 'Read Less' ? 'Read More' : 'Read Less'
  })
 });
-

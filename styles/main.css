@@ -39,37 +39,34 @@ hr {
   padding: 50px 20px;
 }
 
-.btn-1 {
+.btn-1,.btn-2,.btn-3,.btn-4,.btn-5 {
   font-family: "Overpass Mono", Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-1 {
   background-color: transparent;
   border: 1px solid #FF3358;
   color: #FF3358;
-  font-size: 14px;
   padding: 5px;
-  width: 100%;
-  margin: 0 auto;
   display: block;
-  text-align: center;
-  cursor: pointer;
 }
 
-.btn-1:active, .btn-4:active {
+.btn-1:active, .btn-4:active, .btn-5:active {
   color: #f1eeee;
   background-color: #FF3358;
 }
 
 .btn-2 {
-  font-family: "Overpass Mono", Helvetica, sans-serif;
   border: 1px solid #FF3358;
   color: #f1eeee;
   background-color: #FF3358;
-  font-size: 14px;
   padding: 5px;
   width: 200px;
-  margin: 0 auto;
   display: block;
-  text-align: center;
-  cursor: pointer;
 }
 
 .btn-2:active, .btn-3:active {
@@ -79,26 +76,27 @@ hr {
 }
 
 .btn-3 {
-  font-family: "Overpass Mono", Helvetica, sans-serif;
   border: 1px solid #FF3358;
   color: #f1eeee;
   background-color: #FF3358;
-  font-size: 14px;
   padding: 8px;
-  cursor: pointer;
 }
 
 .btn-4 {
-  font-family: "Overpass Mono", Helvetica, sans-serif;
   background-color: transparent;
   border: 1px solid #FF3358;
   color: #FF3358;
-  font-size: 14px;
   padding: 10px;
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  cursor: pointer;
+}
+
+.btn-5 {
+  border: 1px solid #FF3358;
+  color: #FF3358;
+  padding: 5px;
+  width: 200px;
+  display: block;
+  margin-top: 10px;
 }
 
 .link {
@@ -605,7 +603,7 @@ nav {
   .btn-1, .btn-2, .btn-3, .btn-4 {
     transition: 0.5s;
   }
-  .btn-1:hover, .btn-4:hover {
+  .btn-1:hover, .btn-4:hover,.btn-5:hover {
     color: #f1eeee;
     background-color: #FF3358;
   }
