@@ -469,6 +469,12 @@ nav {
 .phpyearbook-bnr {
   background: linear-gradient(180deg, rgba(42,9,68,1) 0%, rgba(153,66,244,1) 100%);
 }
+.mealsonmules-bnr {
+  background: linear-gradient(180deg,  rgba(32, 104, 107) 0%, rgba(138, 198, 77) 100%);
+}
+.newsapp-bnr {
+  background: linear-gradient(180deg, rgba(43,45,66,1) 30%, rgba(141,153,174,1) 100%);
+}
 /***************************************************
   PROJECT PAGES
 ****************************************************/
@@ -600,14 +606,24 @@ nav {
   .gn-left {
     margin-top: 5px;
   }
-  .btn-1, .btn-2, .btn-3, .btn-4 {
+  .btn-1, .btn-2, .btn-3, .btn-4, .btn-5 {
     transition: 0.5s;
   }
-  .btn-1:hover, .btn-4:hover,.btn-5:hover {
+  .btn-1:hover, .btn-4:hover {
     color: #f1eeee;
     background-color: #FF3358;
   }
-  .btn-2:hover, .btn-3:hover  {
+  .btn-3:hover  {
+    background-color: transparent;
+    border: 1px solid #FF3358;
+    color: #FF3358;
+  }
+  .btn-5:hover, .btn-2:hover {
+    color: #f1eeee;
+    background-color: #c00f29;
+    border: 1px solid #c00f29;
+  }
+  .contact .btn-2:hover {
     background-color: transparent;
     border: 1px solid #FF3358;
     color: #FF3358;
@@ -617,7 +633,7 @@ nav {
   }
   .my-work h2 {
     font-size: 40px;
-    padding-bottom: 55px;
+    padding-bottom: 40px;
   }
   .about-me {
     flex-direction: row;
@@ -665,7 +681,7 @@ nav {
     font-size: 20px;
   }
   .my-work h2 {
-    font-size: 48px;
+    font-size: 42px;
   }
   .work-card {
     margin: 15px;
