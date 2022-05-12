@@ -37,6 +37,7 @@ hr {
 
 .section {
   padding: 50px 20px;
+  margin: 0 auto;
 }
 
 .btn-1,.btn-2,.btn-3,.btn-4,.btn-5 {
@@ -587,12 +588,32 @@ nav {
     padding: 40px 5px;
   }
 }
+@media (min-width:375px) {
+  .my-work {
+    padding: 50px 20px;
+  }
+}
+@media (min-width:400px) {
+  .my-work {
+    padding: 50px 50px;
+  }
+}
+@media (min-width:500px) {
+  .my-work {
+    padding: 50px 100px;
+  }
+}
+@media (min-width:600px) {
+  .my-work {
+    padding: 50px 5px;
+  }
+}
 @media (min-width:768px) {
   .bg-img-home {
     height: 100vh;
   }
   .section {
-    padding: 60px;
+    padding: 75px;
   }
   .gn-back img {
     width: 50px;
@@ -654,7 +675,20 @@ nav {
     padding: 20px 40px;
   }
 }
+@media (min-width: 840px) {
+  .my-work {
+    padding: 60px;
+  }
+}
+@media (min-width: 900px) {
+  .my-work {
+    padding: 80px;
+  }
+}
 @media (min-width:992px) {
+  .my-work {
+    padding: 0px;
+  }
   .sidepanel {
     height: 400px;
   } 
@@ -692,7 +726,7 @@ nav {
 }
 @media (min-width:1200px) {
   .section {
-    padding: 100px 0px 150px 0px;
+    padding: 100px 175px;
   }
   .circle {
     left: 240px;
@@ -718,9 +752,20 @@ nav {
     padding-bottom: 30px;
   }
 }
+@media (min-width:1400px) {
+  .section {
+    padding: 80px 120px;
+  }
+  .my-work {
+    padding-bottom: 80px;
+  }
+}
 @media (min-width:1500px) {
   .circle {
     left: 450px;
+  }
+  .section {
+    padding: 100px 175px;
   }
 }
 @media (min-width:1920px) {
